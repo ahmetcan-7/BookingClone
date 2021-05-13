@@ -1,0 +1,115 @@
+@import 'colors';
+
+.navbar {
+  background-color: $blue;
+  padding: 0.5rem 1.6rem 0 1.6rem;
+
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      span {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-left: 1rem;
+        &:nth-child(2) {
+          color: rgb(0, 113, 194);
+        }
+      }
+    }
+    &-right {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        align-items: center;
+        &:hover {
+          background-color: $bg-white;
+          cursor: pointer;
+        }
+      }
+      .try-icon {
+        padding: 0.7rem;
+        color: white;
+      }
+
+      .flag-icon {
+        background-color: inherit;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.1rem;
+        img {
+          border-radius: 50%;
+          width: 1.8rem;
+        }
+      }
+
+      .question-icon {
+        padding: 0.6rem;
+        margin-right: 0.5rem;
+
+        svg {
+          fill: white;
+        }
+      }
+
+      .btn {
+        align-items: center;
+        margin-right: 0.5rem;
+      }
+
+      .btn-1 {
+        background-color: inherit;
+        color: white;
+        padding: 0.3rem 0.6rem;
+        border: 1px solid white;
+        &:hover {
+          background-color: $bg-white;
+          cursor: pointer;
+        }
+      }
+
+      .btn-2 {
+        background-color: white;
+        color: $extra-light-blue;
+        padding: 0.3rem 0.6rem;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &-bottom {
+    display: flex;
+
+    li {
+      &:nth-child(1) {
+        border-bottom: 2px solid white;
+      }
+    }
+
+    a {
+      display: flex;
+      padding: 1rem;
+      align-items: center;
+
+      svg {
+        fill: white;
+        height: 20px;
+        width: 20px;
+      }
+
+      span {
+        color: white;
+        margin-left: 0.5rem;
+      }
+
+      &:hover {
+        background-color: $bg-white;
+      }
+    }
+  }
+}

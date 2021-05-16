@@ -1,0 +1,58 @@
+@import 'colors';
+
+.collapse {
+  background-color: $corona;
+}
+
+.accordion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $corona;
+  cursor: pointer;
+  padding: 0.8rem 1.5rem 0.5rem 1.5rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  &::after {
+    font-size: 1.3rem;
+    content: ' \02C5';
+  }
+  div {
+    display: flex;
+    align-items: center;
+    svg {
+      fill: rgb(146, 62, 1);
+    }
+    span {
+      font-weight: 700;
+      margin-left: 1rem;
+      color: rgb(51, 51, 51);
+    }
+  }
+}
+
+.panel {
+  background-color: $corona;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  margin-left: 4rem;
+  p {
+    background-color: inherit;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    a {
+      color: $extra-light-blue;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.active::after {
+  content: ' \02C4';
+}

@@ -1,0 +1,50 @@
+.bui-steppers {
+  width: 20rem;
+  .bui-stepper {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+
+    &-title {
+      font-size: 0.9rem;
+      font-weight: 500;
+      line-height: 20px;
+    }
+
+    &-title2 {
+      display: block;
+      font-size: 0.9rem;
+      color: rgb(107, 107, 107);
+      font-weight: 400;
+    }
+
+    &-buttons {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    &-button {
+      border: none;
+      padding: 0.3rem 0.9rem;
+      border: 1px solid rgb(0, 113, 194);
+
+      &:hover {
+        background-color: rgb(231, 245, 255);
+        cursor: pointer;
+      }
+    }
+
+    &-display {
+      margin: 0 1rem;
+    }
+  }
+}
+
+.popup-button {
+  background-image: url(//cf.bstatic.com/static/img/cross_product_index/guest/b2e5f2aa32b71ca0fc66aa671e4e958bcd69b7d0.svg),
+    url(//cf.bstatic.com/static/img/cross_product_index/toggle/fb6f63d62231f9fe552d79b5448620b2e63c726e.svg);
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+}

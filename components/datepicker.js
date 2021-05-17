@@ -13,7 +13,6 @@ function Datepicker() {
   const handleDateChange = (date) => {
     setSelectedDate(date)
   }
-  console.log(KeyboardDatePicker)
 
   return (
     <MuiPickersUtilsProvider utils={DateFnsUtils}>

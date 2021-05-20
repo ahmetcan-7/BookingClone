@@ -3,7 +3,8 @@ import '../scss/navbar.scss'
 import '../scss/accordion.scss'
 import '../scss/formSection.scss'
 import '../scss/popup.scss'
-
+import '../scss/album.scss'
+import '../scss/card.scss'
 import Head from 'next/head'
 export default function MyApp({ Component, pageProps }) {
   return (

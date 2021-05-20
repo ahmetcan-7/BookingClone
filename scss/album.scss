@@ -1,0 +1,75 @@
+.album {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  &-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  &-images {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-rows: 20rem 20rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      'img1 img1 img2 img2 img3 img3'
+      'img4 img4 img4 img5 img5 img5';
+
+    .image-link {
+      overflow: hidden;
+      position: relative;
+      background-size: cover;
+    }
+
+    .album-image {
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 0.2rem;
+      transition: all ease 0.4s;
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+      }
+    }
+
+    .album-image-article {
+      background-image: linear-gradient(
+        -180deg,
+        rgba(0, 0, 0, 0) 12%,
+        #000 97%
+      );
+
+      position: absolute;
+      bottom: 0;
+      color: white;
+      padding: 0.7rem 0.7rem 1rem 0.7rem;
+      h3 {
+        font-size: 1.3rem;
+        font-weight: 700;
+      }
+    }
+
+    .img1 {
+      grid-area: img1;
+    }
+
+    .img2 {
+      grid-area: img2;
+    }
+
+    .img3 {
+      grid-area: img3;
+    }
+
+    .img4 {
+      grid-area: img4;
+    }
+
+    .img5 {
+      grid-area: img5;
+    }
+  }
+}

@@ -25,7 +25,7 @@ function Discover() {
                   next trip to United States of America!
                 </p>
               </div>
-              <div className="country-name">France</div>
+              <div className="country-name">USA</div>
             </a>
           </li>
           <li>
@@ -42,7 +42,7 @@ function Discover() {
                   next trip to United States of America!
                 </p>
               </div>
-              <div className="country-name">France</div>
+              <div className="country-name">Italy</div>
             </a>
           </li>
           <li>
@@ -76,7 +76,7 @@ function Discover() {
                   next trip to United States of America!
                 </p>
               </div>
-              <div className="country-name">France</div>
+              <div className="country-name">Spain</div>
             </a>
           </li>
           <li>
@@ -93,7 +93,7 @@ function Discover() {
                   next trip to United States of America!
                 </p>
               </div>
-              <div className="country-name">France</div>
+              <div className="country-name">Germany</div>
             </a>
           </li>
         </ul>

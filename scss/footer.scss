@@ -1,0 +1,30 @@
+footer {
+  background-color: #00224f;
+  padding: 2rem 0;
+
+  .footer-auther {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+  }
+
+  .footer-contact {
+    margin: 0.5rem 0;
+    text-align: center;
+    color: #bdbdbd;
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    li {
+      padding: 1rem 1.1rem;
+      a {
+        color: white;
+        &:hover {
+          color: rgb(0, 89, 153);
+        }
+      }
+    }
+  }
+}

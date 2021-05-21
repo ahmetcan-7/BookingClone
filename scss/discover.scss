@@ -1,0 +1,62 @@
+@import 'colors';
+
+.discover {
+  margin: 1.5rem auto;
+  &-top {
+    h1 {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+  }
+
+  &-bottom {
+    ul {
+      display: flex;
+      margin: 0 auto;
+      li {
+        width: 20%;
+        padding: 0 1.35135% 0 0;
+        a {
+          text-align: center;
+          color: $extra-light-blue;
+          transition: all 0.2s;
+          &:hover {
+            color: #bc5b01;
+            .country-text {
+              display: flex;
+              align-items: center;
+              white-space: pre-wrap;
+              height: 135px;
+              line-height: 1rem;
+              overflow: visible;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+    .country {
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      overflow: hidden;
+      text-align: center;
+      line-height: 1.5rem;
+
+      .country-text {
+        white-space: nowrap;
+        padding: 0 1rem;
+        color: #fff;
+        font-size: 0.9rem;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .country-name {
+      padding: 0.5rem 0;
+    }
+  }
+}

@@ -4,6 +4,8 @@ import Form from '../components/form'
 import SimpleSlider from '../components/SimpleSlider'
 import Album from '../components/album'
 import Card from '../components/card'
+import Discover from '../components/discover'
+import Footer from '../components/footer'
 function HomePage() {
   return (
     <div>
@@ -13,6 +15,8 @@ function HomePage() {
       <SimpleSlider />
       <Album />
       <Card />
+      <Discover />
+      <Footer />
     </div>
   )
 }

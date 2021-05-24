@@ -66,8 +66,7 @@ function Popup() {
         onClick={handleClick}
         style={{
           backgroundColor: 'white',
-          padding: '0 2rem',
-          margin: '0 1rem'
+          padding: '0 2rem'
         }}
         className="popup-button"
       >

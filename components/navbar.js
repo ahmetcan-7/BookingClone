@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 function Navbar() {
   return (
     <nav className="navbar">
@@ -8,6 +9,14 @@ function Navbar() {
             <span>Booking</span>
             <span>.com</span>
           </h1>
+
+          <Link href="/mobileMenu">
+            <a className="responsive-button">
+              <svg height="24" width="24" viewBox="0 0 24 24">
+                <path d="M2.25 18.753h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5zm0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5zm0-6h19.5a.75.75 0 0 0 0-1.5H2.25a.75.75 0 0 0 0 1.5z"></path>
+              </svg>
+            </a>
+          </Link>
 
           <div className="navbar-top-right">
             <div className="icon try-icon">TRY</div>

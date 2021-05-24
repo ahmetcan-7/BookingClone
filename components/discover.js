@@ -17,7 +17,7 @@ function Discover() {
                 className="country"
                 style={{
                   backgroundImage: `url(https://cf.bstatic.com/images/city/360x240/689/689587.jpg)`,
-                  height: '135px'
+                  height: '8.4375rem'
                 }}
               >
                 <p className="country-text">
@@ -34,7 +34,7 @@ function Discover() {
                 className="country"
                 style={{
                   backgroundImage: `url(https://cf.bstatic.com/images/city/360x240/613/613105.jpg)`,
-                  height: '135px'
+                  height: '8.4375rem'
                 }}
               >
                 <p className="country-text">
@@ -51,7 +51,7 @@ function Discover() {
                 className="country"
                 style={{
                   backgroundImage: `url(https://cf.bstatic.com/images/city/360x240/613/613088.jpg)`,
-                  height: '135px'
+                  height: '8.4375rem'
                 }}
               >
                 <p className="country-text">
@@ -68,7 +68,7 @@ function Discover() {
                 className="country"
                 style={{
                   backgroundImage: `url(https://cf.bstatic.com/images/city/360x240/971/971353.jpg)`,
-                  height: '135px'
+                  height: '8.4375rem'
                 }}
               >
                 <p className="country-text">
@@ -85,7 +85,7 @@ function Discover() {
                 className="country"
                 style={{
                   backgroundImage: `url(https://cf.bstatic.com/images/city/360x240/972/972613.jpg)`,
-                  height: '135px'
+                  height: '8.4375rem'
                 }}
               >
                 <p className="country-text">

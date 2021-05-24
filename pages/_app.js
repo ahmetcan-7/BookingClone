@@ -7,6 +7,7 @@ import '../scss/album.scss'
 import '../scss/card.scss'
 import '../scss/discover.scss'
 import '../scss/footer.scss'
+import '../scss/mobileMenu.scss'
 import Head from 'next/head'
 export default function MyApp({ Component, pageProps }) {
   return (

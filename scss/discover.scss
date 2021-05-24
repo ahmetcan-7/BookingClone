@@ -1,5 +1,5 @@
 @import 'colors';
-
+@import 'mixin.scss';
 .discover {
   margin: 1.5rem auto;
   &-top {
@@ -13,9 +13,18 @@
     ul {
       display: flex;
       margin: 0 auto;
+      @include mq('phone') {
+        flex-wrap: wrap;
+        :first-child {
+          width: 100%;
+        }
+      }
       li {
         width: 20%;
         padding: 0 1.35135% 0 0;
+        @include mq('phone') {
+          width: 50%;
+        }
         a {
           text-align: center;
           color: $extra-light-blue;
@@ -26,7 +35,7 @@
               display: flex;
               align-items: center;
               white-space: pre-wrap;
-              height: 135px;
+              height: 8.4375rem;
               line-height: 1rem;
               overflow: visible;
               width: 100%;

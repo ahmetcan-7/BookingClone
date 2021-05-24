@@ -1,3 +1,4 @@
+@import 'mixin.scss';
 .album {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -14,6 +15,17 @@
     grid-template-areas:
       'img1 img1 img2 img2 img3 img3'
       'img4 img4 img4 img5 img5 img5';
+
+    @include mq('phone') {
+      grid-template-rows: 15rem 15rem 15rem 15rem 15rem;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        'img1'
+        'img2'
+        'img3'
+        'img4'
+        'img5';
+    }
 
     .image-link {
       overflow: hidden;

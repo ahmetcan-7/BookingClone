@@ -20,7 +20,9 @@
 ```bash
     npm install or yarn add
 ```
-
+## Deploy
+This website is deployed on Vercel. [Click here](https://booking-clone-two.vercel.app) to visit.
+<br>You can also go direct this link: ```https://booking-clone-two.vercel.app```
 
 ## Demo
 ![Demo](https://media.giphy.com/media/KgaNotkslrdJzURsYX/giphy.gif)

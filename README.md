@@ -1,4 +1,4 @@
-# <span style="color:#5581D9">React Facebook Clone</span>
+# <span style="color:#5581D9">BookingClone</span>
 
 ## Tech/framework used
 1. Next Js
